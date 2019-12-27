@@ -1,0 +1,130 @@
+body{
+  font: 15px/1.5 timesnewroman;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Globle */
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.button_1{
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding left:  20px;
+  padding-right: 20px;
+  color: white;
+}
+/* header */
+header{
+  background-color:#35424a;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom:#e8491d 3px solid;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #brand{
+  float: left;
+}
+header #brand h1{
+  margin: 0;
+}
+#brand>h1:first-letter{
+  font-weight: bold;
+  color: green;
+  font-size: 40px;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: red;
+  font-family: sans-serif;
+}
+header a:hover{
+  font-weight: bold;
+  color: #cccccc;
+}
+
+/* showcase */
+#showcase{
+  min-height: 500px;
+  background: url('../img/17.jpg') no-repeat 0 -300px;
+  background-position: center;
+  width: auto;
+  text-align: center;
+  color: white;
+}
+#showcase h1{
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 30px;
+}
+/* newsletter */
+#newsletter{
+  padding: 15px;
+  color: white;
+  background: #35424a;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 20px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 26px;
+  width: 250px;
+}
+/* boxes */
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+#boxes .box img{
+  width:90px;
+}
+.FF {
+  margin-top: 30px;
+}
+
+footer{
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: #e8491d;
+  text-align: center;
+}
+footer p{
+  font-size: 20px;
+}
